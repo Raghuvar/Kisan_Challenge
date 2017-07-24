@@ -1,0 +1,66 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{dirtree}
+
+\include{defs}
+
+\usepackage[english]{babel}
+ 
+
+\usepackage{lipsum}
+
+%%%%%%%%%%%%%%%
+% Title Page
+\title{Frond End Manual}
+\author{Raghuvar Prajapati}
+\date{\today}
+%%%%%%%%%%%%%%%
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+\clearpage
+
+\section{Problem Statement}
+
+\textbf{Design a Front End}\\
+
+\textbf{Details:} 
+
+\begin{itemize}
+\item Implement the design from the following image: http://bit.ly/frontendimage
+\item Make it responsive.
+\item All files should be concatenated, minified or otherwise generally optimized.
+\item Any image / text content can be used but the look and feel of the image needs to be captured.
+\item Write an additional document with a structure of your submission directory and any instructions to build / run your code. The root structure we would recommend is:
+Directory
+--- dist (Concatentated and minified files) \\
+--- index.html \\
+--- [any build tool files] \\
+--- src (Source files)
+\end{itemize}
+
+\section{Framework}
+I have used Bootstrap framework to build the front end part.
+
+\section{Instructions}
+Please navigate to the main directory. I have run the code in Linux machine. \\
+Directory Structure looks like:\\
+--dist\\
+--src\\
+--index.heml
+
+
+
+\newpage
+\begin{itemize}
+\item You will just have to run index.html page in your browser.
+\item Can be run into your server custom folder.
+\item In linux put the folder into /var/www/html.
+\item Open your browser and go to localhost/$<$direc$_{-}$name$>$
+\end{itemize}
+\end{document}          
